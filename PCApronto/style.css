@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.686);
+    position: static;
+    top: 0;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.menu ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(36, 35, 35, 0.3);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img/Wmata-atlantica-1.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.contato::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img/wegrupo.jpeg') no-repeat center center/cover;
+    height: 1400px;
+    width: 100%;
+    z-index: -1; 
+   
+          
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    
+}
+.headings{
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-family: century;
+    font-size: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+/* sobe mim */
+#about{
+       display: flex;
+       flex-direction: column;
+       padding: 150px;
+       text-align: left;
+       
+}
+#about h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;    
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(8, 8, 8) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;    
+}
+.box:hover{
+    background-position: left bottom;
+    color: blanchedalmond;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.box a{
+    margin-top: 80px;
+}
+.box h1{
+    margin-top: 50px;
+}
+.box p{
+    margin-top: 50px;
+}
+.meio img{
+    width: 330px;
+    height: 435px;
+    border-radius: 5%;
+    margin-top: 8%;
+    
+}
+.meio{
+    display: flex;
+    flex-direction: column;     
+       
+    text-align: center;   
+    
+}
+
+/* contato */
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+form{
+    display: block;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.form .row{
+    display: block;
+    padding: 10px;
+}
+.form .flx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from .flx .input{
+    flex: 1;
+}
+form .flx .input:first-child{
+    margin-right: 40px;
+}
+.form .input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-size: 1.4em;
+    color: #000000;
+}
+.form .textarea{
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid #fcfcfc;
+    border-radius: 5px;
+    font-size: 1.4em;
+    color:rgba(0, 0, 0, 0.3);
+}
+/*portfolio*/
+.port{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.port h3{
+    margin-top: 50px;
+    padding: 100px; 
+    text-align: justify;       
+}
+
+/*Eduardo*/
+
+.col-md-6 px-0 { display: flex; align-items: center; justify-content: center;}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.iconDetails {
+    margin-left:6%;
+    margin-top: -10%;
+    float:right; 
+
+}
+.display-4 fst-italic {
+    padding-left: 80px;
+}
+#P1{
+    background-color:rgb(32, 31, 31) ;
+    
+}
+#P2{
+    background-color:rgb(32, 31, 31) ;
+}
+#P3{
+    background-color:rgb(32, 31, 31) ;
+}
+#P4{
+    background-color:rgb(32, 31, 31) ;
+}
+#P5{
+    background-color:rgb(32, 31, 31) ;
+}
+#P6{
+    background-color:rgb(32, 31, 31) ;
+}
+
+/*yngri*/
+
+/*.img1 {
+
+    text-align:center;
+}
+   
+    .div1 {
+       color: rgb(236, 231, 236) (170, 170, 175);
+       text-align: center;
+   }
+   
+   p {
+       border: rgb(218, 207, 218);
+       color: rgb(223, 210, 223);
+       text-align:center justify;
+   }
+   fundo-black{
+       background-color: rgb(243, 227, 227);
+   }
+
+   
+   
+.div-meio {
+   background-color: rgb(235, 223, 223);
+}
+
+h1,h2,h3,h4 {
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   font-style:arial;
+}
+
+
+
+   

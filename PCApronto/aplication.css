@@ -1,0 +1,32 @@
+body{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    background:url(img/Background.jpg) ;
+
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.671);
+    
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.band-name, .head-line{
+    margin: 0%;
+    text-align: center;
+}
+
+.logo{
+    margin: 0%;
+    text-align: left;
+}
+.sub-text{
+    margin: 10px;
+    text-align: left;
+}
